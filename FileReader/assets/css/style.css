@@ -1,0 +1,35 @@
+.image_container {
+	height: 120px;
+	width: 200px;
+	border-radius: 6px;
+	overflow: hidden;
+ 	margin: 10px;
+}
+.image_container img {
+	height: 100%;
+	width: auto;
+	object-fit: cover;
+}
+.image_container span {
+	top: -6px;
+	right: 8px;
+	color: rgb(255, 255, 255);
+	padding: 0 6px;
+	background-color: rgb(7, 129, 123);
+	font-size: 28px;
+	font-weight: normal;
+	cursor: pointer;
+	transition: 0.1s;
+}
+.image_container span:hover{
+	background-color: rgb(6, 75, 71);
+}
+i{
+	font-size: 50px;
+	padding: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.b-none{
+	border: none;
+}
